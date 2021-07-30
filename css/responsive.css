@@ -1,0 +1,115 @@
+@media (max-width:991px){
+    .portfolio-section .portfolio-item,
+    .service-section .service-item{
+        flex-basis: 50%;
+        max-width: 50%;
+    }
+    .service-section .service-item-inner{
+        padding: 50px 40px;
+    }
+}
+
+@media (max-width:767px) {
+    .contact-section .contact-form .w-50,
+    .contact-section .contact-item,
+    .testimonial-section .testi-box,
+    .portfoli-popup .pp-project-details .info,
+    .portfoli-popup .pp-project-details .description,
+    .portfolio-section .portfolio-item,
+    .service-section .service-item,
+    .about-section .skills .skill-item,
+    .about-section .about-info,
+    .about-section .about-img,
+    .home-section .home-text,
+    .home-section .home-img{
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+    
+    .home-section .home-text{
+        order:2;
+        text-align: center;
+    }
+    .home-section .full-screen{
+        padding: 100px 0;
+    }
+    .home-section .home-img .img-box{
+        margin-bottom: 40px;
+        max-width:350px;
+    }
+    .effect-3{
+        margin-left: -60px;
+    }
+    .effect-4{
+        left:15%;
+    }
+    .effect-5{
+        right:4%;
+    }
+    .about-section .about-img{
+        margin-bottom: 30px;
+    }
+    .about-section .timeline::before{
+        display:none;
+    }
+    .about-section .timeline-item{
+        margin-bottom: 40px;
+    }
+    .about-section .timeline-item:last-child{
+        margin-bottom: 0px;
+    }
+    .about-section .timeline-item:nth-child(odd){
+        text-align:left;
+        padding-right:15px;
+        padding-left:150px;
+    }
+    .about-section .timeline-item:nth-child(even){
+        padding-left:150px;
+    }
+    .about-section .timeline-item:nth-child(odd) .icon{
+        left: -128px;
+    }   
+    .about-section .timeline-item:nth-child(odd) .timeline-item-inner::before{
+        left:-35px
+    }
+
+    .service-section .service-item-inner{
+        padding: 50px 150px;
+    }
+    .portfoli-popup .pp-project-details .info{
+        padding-top: 15px;
+    }
+    .contact-section .submit-btn{
+        text-align:center;
+    }
+
+}
+
+@media (max-width:574px){
+    .home-section .home-img .img-box{
+        max-width:260px;
+    }
+    .home-section .home-text h2{
+        font-size:40px;
+    }
+    .service-section .service-item-inner{
+        padding: 50px 0px;
+    }
+    .about-info .btn-1{
+        display: block;
+    text-align: center;
+    }
+    .about-section .timeline-item:nth-child(even),
+    .about-section .timeline-item:nth-child(odd){
+        padding-left: 80px;
+    }
+    .about-section .timeline-item:nth-child(even) .icon,
+    .about-section .timeline-item:nth-child(odd) .icon{
+        left:-75px;
+    }
+    .about-section .timeline .timeline-item-inner .icon{
+        height: 60px;
+        width: 60px;
+        top: 40px;
+    }
+}
